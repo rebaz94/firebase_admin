@@ -458,6 +458,7 @@ class CreateEditAccountRequest {
         'emailVerified': emailVerified,
         'password': password,
         if (phoneNumber != '') 'phoneNumber': phoneNumber,
+        if (customAttributes != null) 'customAttributes': customAttributes,
         if (photoUrl != '') 'photoUrl': photoUrl,
         'localId': uid,
         // For deleting displayName or photoURL, these values must be passed as null.
