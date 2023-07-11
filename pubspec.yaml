@@ -1,6 +1,6 @@
 name: firebase_admin
 description: A port of the Firebase admin sdk to pure, idiomatic Dart code
-version: 0.2.0
+version: 0.3.0-dev.4
 homepage: https://github.com/appsup-dart/firebase_admin
 
 environment:
@@ -19,6 +19,10 @@ dependencies:
   crypto_keys: ^0.3.0
   collection: ^1.15.0
   gcloud: ^0.8.0
+  firebaseapis: ^0.1.2
+  snapshot: ^0.2.5
+  _discoveryapis_commons: ^1.0.4
+  googleapis: ^9.2.0
 
 dev_dependencies:
   test: ^1.17.8
